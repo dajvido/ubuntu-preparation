@@ -6,7 +6,7 @@ sudo apt-get update
 echo "Install zsh"
 sudo apt-get install -y zsh
 echo "Set zsh as a default shell"
-chsh -s $(which zsh)
+chsh -s $(which zsh) $USER
 echo "Install ohh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 echo "Succeed installation of zsh"
