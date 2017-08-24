@@ -10,11 +10,11 @@ echo "Create ~/Programs dir for installations"
 mkdir -p $HOME/Programs
 cd $HOME/Programs
 echo "Started installation..."
-sh -c "$(curl -fsSL https://raw.github.com/dajvido/ubuntu-preparation/asdf-install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/dajvido/ubuntu-preparation/copyq-install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/dajvido/ubuntu-preparation/docker-install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/dajvido/ubuntu-preparation/xcape-install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/dajvido/ubuntu-preparation/zsh-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/asdf-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/copyq-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/docker-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/xcape-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/zsh-install.sh)"
 cd $HOME
 echo "Finished installation"
 
