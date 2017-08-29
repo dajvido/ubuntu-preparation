@@ -18,6 +18,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/copyq-install.sh)"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/docker-install.sh)"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/nvm-install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/vim-install.sh)"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/xcape-install.sh)"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/dajvido/ubuntu-preparation/master/zsh-install.sh)"
 cd $HOME
